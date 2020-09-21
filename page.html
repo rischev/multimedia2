@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Grayscale</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="">
+</head>
+<body>
+  <div class="container">
+    <div class="palet">
+      <p>Original</p>
+      <canvas id="original"></canvas>
+    </div>
+    <div class="palet">
+      <p>Luminosity</p>
+      <canvas id="luminosity"></canvas>
+    </div>
+    <div class="palet">
+      <p>Average</p>
+      <canvas id="average"></canvas>
+    </div>
+    <div class="palet">
+      <p>Heatmap</p>
+      <canvas id="heatmap"></canvas>
+    </div>
+    <div class="palet">
+      <p>Histogram</p>
+      <canvas id="histogram"></canvas>
+    </div>
+  </div>
+  <img src="original.jpg" id="originalPic" style="visibility: hidden;">
+  <script src="script.js"></script>
+</body>
+</html>
