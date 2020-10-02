@@ -5,3 +5,20 @@
 .storage {
   visibility: hidden;
 }
+
+#description {
+  margin-top: 10px;
+  width: 200px;
+}
+
+#left {
+  float: left;
+  position: relative;
+  top: -130px;
+}
+
+#right {
+  float: right;
+  position: relative;
+  top: -130px;
+}
